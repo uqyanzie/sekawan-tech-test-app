@@ -17,7 +17,11 @@
                         {{ auth()->user()->name }}
                     </h5>
                     <p class="mb-0 font-weight-normal text-sm">
-                        CEO / Co-Founder
+                        @if (auth()->user()->role == 'admin')
+                            Admin
+                        @else
+                            $user->position
+                        @endif
                     </p>
                 </div>
             </div>
@@ -122,7 +126,7 @@
                         <div class="mb-3 col-md-12">
 
                             <label for="floatingTextarea2">About</label>
-                            <textarea wire:model.lazy="user.about" class="form-control border border-2 p-2"
+                            <textarea class="form-control border border-2 p-2"
                                 placeholder=" Say something about yourself" id="floatingTextarea2" rows="4"
                                 cols="50"></textarea>
                             @error('user.about')

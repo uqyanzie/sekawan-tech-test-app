@@ -5,10 +5,11 @@ use App\Http\Livewire\Auth\Login;
 use App\Http\Livewire\Auth\Register;
 use App\Http\Livewire\Auth\ResetPassword;
 use App\Http\Livewire\Billing;
+use App\Http\Livewire\Vehicles;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Dashboard;
-use App\Http\Livewire\ExampleLaravel\UserManagement;
-use App\Http\Livewire\ExampleLaravel\UserProfile;
+use App\Http\Livewire\User\UserManagement;
+use App\Http\Livewire\User\UserProfile;
 use App\Http\Livewire\Notifications;
 use App\Http\Livewire\Profile;
 use App\Http\Livewire\RTL;
@@ -16,6 +17,7 @@ use App\Http\Livewire\StaticSignIn;
 use App\Http\Livewire\StaticSignUp;
 use App\Http\Livewire\Tables;
 use App\Http\Livewire\VirtualReality;
+use App\Http\Livewire\VehicleLoans\CreateVehicleLoan;
 use GuzzleHttp\Middleware;
 
 /*
@@ -44,6 +46,8 @@ Route::get('sign-in', Login::class)->middleware('guest')->name('login');
 Route::get('user-profile', UserProfile::class)->middleware('auth')->name('user-profile');
 Route::get('user-management', UserManagement::class)->middleware('auth')->name('user-management');
 
+Route::get('vehicle-loans/create', CreateVehicleLoan::class)->middleware('auth')->name('create-vehicle-loan');
+
 Route::group(['middleware' => 'auth'], function () {
 Route::get('dashboard', Dashboard::class)->name('dashboard');
 Route::get('billing', Billing::class)->name('billing');
@@ -51,6 +55,7 @@ Route::get('profile', Profile::class)->name('profile');
 Route::get('tables', Tables::class)->name('tables');
 Route::get('notifications', Notifications::class)->name("notifications");
 Route::get('virtual-reality', VirtualReality::class)->name('virtual-reality');
+Route::get('vehicles', Vehicles::class)->name('daftar-kendaraan');
 Route::get('static-sign-in', StaticSignIn::class)->name('static-sign-in');
 Route::get('static-sign-up', StaticSignUp::class)->name('static-sign-up');
 Route::get('rtl', RTL::class)->name('rtl');
