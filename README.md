@@ -40,22 +40,22 @@ Password: admin123
 
 1) Email : bambangaji@mail.com
    Password : bambang123
-   Tier I Permission Grantor
+   (High Level Permission Grantor)
    
 2) Email : ilhamsuryap@mail.com
    Password : ilhamsurya123
-   Tier I Permission Grantor
+   (High Level Permission Grantor)
    
 3) Email : kurnaediahmad@mail.com
    Password : kurnaedi123
-   Permission Grantor
+   (Permission Grantor)
    
 4) Email : harunmuhammad@mail.com
    Password : harun12345
-   Permission Grantor
+   (Permission Grantor)
    
 5) Email : rizkyfadh@mail.com
    Password : rizky12345
-   Permission Grantor
+   (Permission Grantor)
 
 
