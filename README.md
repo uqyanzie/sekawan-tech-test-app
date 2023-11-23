@@ -29,8 +29,33 @@ Sebuah perusahaan tambang nikel berlokasi di beberapa daerah (region), satu kant
 
 Perusahaan tersebut membutuhkan sebuah web aplikasi untuk dapat memonitoring  kendaraan yang dimiliki. Mulai dari konsumsi BBM, jadwal service dan riwayat pemakaian kendaraan. Untuk dapat memakai kendaraan, pegawai diwajibkan untuk melakukan pemesanan terlebih dahulu ke pool atau bagian pengelola kendaraan dan pemakaian kendaraan harus diketahui atau disetujui oleh masing - masing atasan.
 
-## Daftar User
-1. Admin
-  - Email: admin@mail.com
-  - Password: admin123 
-- 
+## Daftar User Credentials yang dapat digunakan
+
+#### Role Admin 
+
+Email: admin@mail.com
+Password: admin123
+
+#### Role User
+
+1) Email : bambangaji@mail.com
+   Password : bambang123
+   (High Level Permission Grantor)
+   
+2) Email : ilhamsuryap@mail.com
+   Password : ilhamsurya123
+   (High Level Permission Grantor)
+   
+3) Email : kurnaediahmad@mail.com
+   Password : kurnaedi123
+   (Permission Grantor)
+   
+4) Email : harunmuhammad@mail.com
+   Password : harun12345
+   (Permission Grantor)
+   
+5) Email : rizkyfadh@mail.com
+   Password : rizky12345
+   (Permission Grantor)
+
+
