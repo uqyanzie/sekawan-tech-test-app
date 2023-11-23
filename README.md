@@ -46,15 +46,15 @@ Password: admin123
    Password : ilhamsurya123
    Tier I Permission Grantor
    
-4) Email : kurnaediahmad@mail.com
+3) Email : kurnaediahmad@mail.com
    Password : kurnaedi123
    Permission Grantor
    
-6) Email : harunmuhammad@mail.com
+4) Email : harunmuhammad@mail.com
    Password : harun12345
    Permission Grantor
    
-8) Email : rizkyfadh@mail.com
+5) Email : rizkyfadh@mail.com
    Password : rizky12345
    Permission Grantor
 
