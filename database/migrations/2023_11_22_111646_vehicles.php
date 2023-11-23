@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('vehicle_code');
             $table->string('license_plate');
+            $table->text('image');
             $table->enum('category', ['transportasi', 'pengangkut tambang', 'pengangkut logisitik']);
             $table->enum('type', ['milik perusahaan', 'sewaan']);
             $table->enum('status', ['tersedia', 'tidak tersedia'])->default('tersedia');
